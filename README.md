@@ -1,6 +1,9 @@
-Repo will be completed soon. Current workflow:
-- Arrangement of MIT Indoor images :green_circle:
-- Preprocessing and creating a baseline model :green_circle:
-- Reviewing baseline model and deciding on a strategy :red_circle:
-- Model building :red_circle:
-- Final evaluation :red_circle:
+# Classifying MIT Indoor Scenes Dataset
+photo here <br>
+Image classification with data augmentation using *Tensorflow Keras*.
+## Workflow
+1. `data-arrangement.py`: What we get from Kaggle is images in a file and two text files splitting these images to training and test sets. Here, we split images to train, validation and test sets without causing to any imbalance. After the process, we have 4680 samples for training, 670 for validation and 1340 for testing.
+2. `preprocessing-and-baseline.py`: This is the process of rescaling images and creating Python iterators (image batches) for the neural network. We also build a simple convolutional neural network and train it.
+3. `baseline-review`: We plot the learning curves and see that our model suffers from overfitting. We decide on a strategy to mitigate overfitting.
+4. `model-building.py` :red_circle:
+5. `final-eval.py` :red_circle:
