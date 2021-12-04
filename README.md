@@ -1,5 +1,7 @@
-# Classifying MIT Indoor Scenes Dataset
-photo here <br>
+# Classifying MIT Indoor Scenes Dataset 
+| An amphitheater  | Second Header |
+| ------------- | ------------- |
+| ![image](amphitheatre987_25.jpg)  | Content Cell  |<br>
 Image classification with data augmentation using *Tensorflow Keras*.
 ## Workflow
 1. `data-arrangement.py`: What we get from Kaggle is images in a file and two text files splitting these images to training and test sets. Here, we split images to train, validation and test sets without causing to any imbalance. After the process, we have 4680 samples for training, 670 for validation and 1340 for testing.
