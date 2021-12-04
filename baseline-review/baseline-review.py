@@ -18,7 +18,7 @@ plt.title('Training and validation accuracy')
 plt.legend()
 
 ## Loss graph
-# plt.plot(epochs, loss, 'bo', label='Training loss')
-# plt.plot(epochs, val_loss, 'b', label='Validation loss')
-# plt.title('Training and validation loss')
-# plt.legend()
+plt.plot(epochs, loss, 'bo', label='Training loss')
+plt.plot(epochs, val_loss, 'b', label='Validation loss')
+plt.title('Training and validation loss')
+plt.legend()
